@@ -41,7 +41,7 @@
    .logo {
     color:var(--headerLogoText);
     font-size: 32px;
-    padding: 5px 200px;
+    padding: 5px 80px;
    }
    /* NAVBAR MENU */
    .menu {
@@ -74,5 +74,6 @@
 .hero-image img {
     width: 500px;
     height: 250px;
+    padding-left: 50px;
 }
  
