@@ -1,9 +1,17 @@
+:root {
+    --darkBackgroundColor:#1f2937;
+    --heroMainText:#f9faf8;
+    --heroSecondaryText:#e5e7eb;
+    --headerLogoText: #f9faf8;
+
+  }
+
 /* UTILITIES */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1f2937;
+    background-color: var(--darkBackgroundColor);
    }
    body {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +21,8 @@
    }
    li {
     list-style: none;
+    color: var(--heroSecondaryText);
+    font-size: 18px;
    }
 
    /* NAVBAR STYLING STARTS */
@@ -21,7 +31,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #1f2937;
+    background-color: var(--darkBackgroundColor);
     color: #fff;
    }
    .nav-links a {
@@ -29,6 +39,7 @@
    }
    /* LOGO */
    .logo {
+    color:var(--headerLogoText);
     font-size: 32px;
     padding: 5px 200px;
    }
@@ -41,4 +52,31 @@
    .menu li {
     padding: 5px 14px;
    }
+
+.left{
+    display: block;
+    width: 60%;
+    margin-left: 220px;
+    margin-right: auto;
+    padding-top: 100px;
+}
+   
+.left .hero{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.left .secondary{
+        font-size: 18px;
+        color:var(--heroSecondaryText);
+    }
+
+.right{
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 100px;
+    }
  
